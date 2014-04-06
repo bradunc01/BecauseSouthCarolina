@@ -1,1 +1,44 @@
+body
+{
+	background-image:url("http://www.clipartbest.com/cliparts/yik/k7b/yikk7b6iE.png");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-color: navy;
+	font-size:100%;
+	
+	}
+aside {
+	float: left;
+	position: relative;
+	width: 190px;
+	height: 1000px;
+	background-color: grey;
+	border-style:solid;
+	border-color: navy;
+	border-width:10px 1px 10px 1px;
+	}
+
+aside#aside_header h2{
+	color: navy;
+	font-size: 1.2em;
+}
+
+ul#nav li{
+	border-bottom: 2px solid white;
+	list-style: none; 
+	padding: 2px 10px;
+	text-align: left;
+	font-size: .80em;
+	color: white;
+	}
+ul#nav li a{
+	text-decoration: none;
+}
+
+H1{
+	font-family: verdana,helvetica,arial,sans-serif;
+	color:white;
+	font-size:2.5em;
+	text-align:left;
+}
 
