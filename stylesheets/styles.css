@@ -23,7 +23,7 @@ body
 	background-color:#545454;
 	border-style:solid;
 	border-color: white;
-	border-radius: 5px;
+	border-radius: 0px 0px 5px 0px;
 	border-width:10px 0px 10px 0px;
 	box-shadow: 0px 0px 20px black;
 	}
@@ -69,14 +69,14 @@ H1{
 	font-size:2.5em;
 	text-align:left;
 }
+
 #forTheTitle{
-	margin:0;
+	margin:12px 0px 0px 0px;
 	padding:0;
 	position: absolute;
 	left:250px; 
 	width: 600px;
 	text-align: center;
-	background-position:210px 100px;
 	border-radius: 5px;
 	background-color:#545454;
 	box-shadow: 10px 10px 20px black;
@@ -87,7 +87,7 @@ H1{
 	left:250px; 
 	top:  75px;
 	width: 600px;
-	height: 735px;
+	height: 100%;
 	background-color:#545454;
 	border-style:solid;
 	border-radius: 5px;
