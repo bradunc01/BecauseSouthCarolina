@@ -5,6 +5,7 @@ html, body{
 body
 {
 	background-image:url("http://www.clipartbest.com/cliparts/yik/k7b/yikk7b6iE.png");
+	background-size:80px 60px
 	background-repeat:no-repeat;
 	background-position:210px 100px;
 	background-attachment:fixed;
@@ -22,7 +23,9 @@ body
 	background-color:#545454;
 	border-style:solid;
 	border-color: white;
+	border-radius: 5px;
 	border-width:10px 0px 10px 0px;
+	box-shadow: 0px 0px 20px black;
 	}
 
 
@@ -35,7 +38,7 @@ body
 
 #sidebar_div {
 	background-color: white;
-	height: 4px
+	height: 3px
 }
 ul#nav li{
 	border-bottom: 1px solid white;
@@ -62,12 +65,33 @@ ul#nav li a:active {
 	}
 
 H1{
-	color:white;
+	color:orange;
 	font-size:2.5em;
 	text-align:left;
 }
-H1#forTheTitle{
-	text-decoration: underline;
-
+#forTheTitle{
+	margin:0;
+	padding:0;
+	position: absolute;
+	left:250px; 
+	width: 600px;
+	text-align: center;
 	background-position:210px 100px;
+	border-radius: 5px;
+	background-color:#545454;
+	box-shadow: 10px 10px 20px black;
+}
+
+#contentblock{
+	position: absolute;
+	left:250px; 
+	top:  75px;
+	width: 600px;
+	height: 735px;
+	background-color:#545454;
+	border-style:solid;
+	border-radius: 5px;
+	border-color: white;
+	border-width:0px 0px 10px 0px;
+	box-shadow: 10px 10px 20px black;
 }
