@@ -1,44 +1,73 @@
+html, body{
+	margin:0;
+	padding:0;
+}
 body
 {
 	background-image:url("http://www.clipartbest.com/cliparts/yik/k7b/yikk7b6iE.png");
 	background-repeat:no-repeat;
+	background-position:210px 100px;
 	background-attachment:fixed;
 	background-color: navy;
+	font-family: verdana,helvetica,arial,sans-serif;
 	font-size:100%;
-	
-	}
-aside {
+				}
+#side-bar {
 	float: left;
+	margin:0;
+	padding:0;
 	position: relative;
 	width: 190px;
-	height: 1000px;
-	background-color: grey;
+	height: 800px;
+	background-color:#545454;
 	border-style:solid;
-	border-color: navy;
-	border-width:10px 1px 10px 1px;
+	border-color: white;
+	border-width:10px 0px 10px 0px;
 	}
 
-aside#aside_header h2{
-	color: navy;
-	font-size: 1.2em;
-}
 
-ul#nav li{
-	border-bottom: 2px solid white;
-	list-style: none; 
-	padding: 2px 10px;
-	text-align: left;
-	font-size: .80em;
+#sidebar_headerText {
 	color: white;
-	}
-ul#nav li a{
-	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
 }
+
+#sidebar_div {
+	background-color: white;
+	height: 4px
+}
+ul#nav li{
+	border-bottom: 1px solid white;
+	list-style: none; 
+	padding: 10px 0px;
+	text-align:left;
+	text-decoration: none;
+	font-size: .9em;
+	color: white;
+		}
+
+ul#nav li a:visited {
+	color: white;
+	text-decoration: none;
+	}
+ul#nav li a:hover {
+	color: orange;
+	text-decoration: none;
+	}	
+	
+ul#nav li a:active {
+	color: grey;
+	text-decoration: none;
+	}
 
 H1{
-	font-family: verdana,helvetica,arial,sans-serif;
 	color:white;
 	font-size:2.5em;
 	text-align:left;
 }
+H1#forTheTitle{
+	text-decoration: underline;
 
+	background-position:210px 100px;
+}
