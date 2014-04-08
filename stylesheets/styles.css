@@ -27,8 +27,6 @@ body
 	border-width:0px 0px 10px 0px;
 	box-shadow: 0px 0px 20px black;
 	}
-
-
 #sidebar_headerText {
 	color: orange;
 	font-weight: bold;
@@ -52,7 +50,6 @@ ul#nav li{
 	font-size: .9em;
 	color: white;
 		}
-
 ul#nav li a:visited {
 	color: white;
 	text-decoration: none;
@@ -66,13 +63,11 @@ ul#nav li a:active {
 	color: grey;
 	text-decoration: none;
 	}
-
 H1{
 	color:orange;
 	font-size:2.5em;
 	text-align:left;
 }
-
 #forTheTitle{
 	margin:12px 0px 0px 0px;
 	padding:0;
@@ -85,7 +80,6 @@ H1{
 	color: white;
 	box-shadow: 10px 10px 20px black;
 }
-
 #contentblock{
 	position: absolute;
 	margin: 5px;
